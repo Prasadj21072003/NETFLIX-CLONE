@@ -1,0 +1,38 @@
+.main {
+  width: 100%;
+  height: auto;
+
+  margin: 20px;
+
+  .wrapper {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+
+    &.active {
+      -webkit-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+      -moz-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+      box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+    }
+
+    &.none {
+      box-shadow: none;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: black;
+    }
+
+    .chart {
+      padding: 20px 0px;
+
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

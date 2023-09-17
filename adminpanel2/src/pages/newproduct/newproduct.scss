@@ -1,0 +1,118 @@
+.createproduct {
+  width: 79%;
+  height: 1000px;
+
+  position: relative;
+  top: 70px;
+  left: 20%;
+  padding-left: 10px;
+  padding-top: 20px;
+
+  .wrapper {
+    width: auto;
+    height: 550px;
+
+    padding-left: 10px;
+
+    // -webkit-box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+    //   -moz-box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+    //   box-shadow: -1px 3px 17px 0px rgba(217,182,217,1);
+
+    .heading {
+      margin-bottom: 5px;
+    }
+
+    .form {
+      // border: 2px solid black;
+      height: 80%;
+      padding-top: 20px;
+      padding-left: 5px;
+      display: flex;
+      justify-content: center;
+
+      .left {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+
+        .imgfile {
+          border: none;
+        }
+
+        label {
+          color: gray;
+          font-weight: 600;
+          font-size: 13px;
+          margin-bottom: 10px;
+        }
+        input {
+          margin-bottom: 10px;
+          padding: 10px 5px;
+          width: 80%;
+          background-color: white;
+          border-radius: 5px;
+          border: 1px solid black;
+
+          &:focus {
+            outline: none;
+          }
+        }
+        select {
+          padding: 10px 5px;
+          border-radius: 5px;
+          width: 82%;
+          border: 1px solid black;
+        }
+      }
+      .left2 {
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+
+        .imgfile1 {
+          border: none;
+        }
+
+        label {
+          color: gray;
+          font-weight: 600;
+          font-size: 13px;
+          margin-bottom: 10px;
+        }
+        input {
+          margin-bottom: 10px;
+          padding: 10px 5px;
+          width: 80%;
+          background-color: white;
+          border-radius: 5px;
+          border: 1px solid black;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  .createbutton {
+    padding-left: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+
+    button {
+      padding: 5px 80px;
+      background-color: blue;
+      border-radius: 10px;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

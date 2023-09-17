@@ -1,0 +1,73 @@
+.featured {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  height: auto;
+  width: 79vw;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 290px;
+
+    height: 150px;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    -webkit-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+    -moz-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+    box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+
+    .details {
+      width: 78%;
+      padding-top: 40px;
+      padding-left: 60px;
+      height: 100%;
+      position: absolute;
+      left: 0;
+
+      .title {
+        position: absolute;
+
+        font-weight: 400;
+      }
+
+      .moneydetail {
+        .money {
+          position: absolute;
+          top: 69px;
+          font-size: 37px;
+          font-weight: 600;
+        }
+        .moneyrate {
+          position: absolute;
+          top: 83px;
+          right: 60px;
+
+          .icon {
+            position: absolute;
+            top: 3px;
+            margin-left: 5px;
+            font-size: 15px;
+            color: green;
+
+            &.negative {
+              color: darkred;
+            }
+          }
+        }
+      }
+    }
+
+    .desc {
+      position: absolute;
+      top: 128px;
+      font-size: 15px;
+      color: grey;
+    }
+  }
+}

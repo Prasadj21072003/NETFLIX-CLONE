@@ -1,0 +1,22 @@
+.home {
+  width: 78%;
+  height: 1000px;
+  position: relative;
+  left: 19%;
+  top: 80px;
+  margin-left: 10px;
+
+  .wrapper {
+    width: 100%;
+
+    color: black;
+    height: 100%;
+
+    .homewidgets {
+      width: 100%;
+
+      display: flex;
+      margin: 10px;
+    }
+  }
+}

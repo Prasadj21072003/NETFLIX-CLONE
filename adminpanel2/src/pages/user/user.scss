@@ -1,0 +1,256 @@
+.new {
+  width: 79%;
+  height: 1000px;
+  position: relative;
+  left: 20%;
+  top: 50px;
+
+  padding: 0;
+
+  .wrapper {
+    position: relative;
+
+    width: 100%;
+
+    height: auto;
+
+    .top {
+      padding-top: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 0px;
+
+      // margin-bottom:10px ;
+      width: 94%;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      h1 {
+        font-weight: 700;
+        font-size: 30px;
+      }
+
+      button {
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .usercontainer {
+      margin-top: 5%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 20px;
+
+      .usershow {
+        height: 430px;
+        width: 30%;
+
+        margin: 10px;
+        -webkit-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+        -moz-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+        box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+
+        .photo {
+          padding: 10px 20px;
+          width: 86%;
+          height: 50px;
+          background-color: blue;
+          display: flex;
+
+          .name {
+            font-weight: 600;
+            position: relative;
+            top: 10px;
+            font-size: 17px;
+          }
+          .job {
+            position: relative;
+            font-weight: 300;
+            top: 22px;
+            right: 25%;
+            font-size: 15px;
+          }
+
+          img {
+            width: 45px;
+            height: 45px;
+
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+        .details {
+          padding: 10px 15px;
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+          width: auto;
+          height: 110px;
+
+          .accountdetails {
+            font-weight: 700;
+            color: lightgray;
+            font-size: 14px;
+          }
+          .icon {
+            font-size: 16px;
+            position: relative;
+            top: 4px;
+            margin-right: 5px;
+          }
+          .email {
+            font-size: 15px;
+            position: relative;
+            bottom: 5px;
+          }
+          .date {
+            font-size: 15px;
+
+            position: relative;
+            bottom: 15px;
+          }
+        }
+        .contact {
+          display: flex;
+          flex-direction: column;
+
+          padding: 0px 15px;
+          width: auto;
+          height: 150px;
+
+          .icon1 {
+            font-size: 16px;
+            position: relative;
+            top: 4px;
+            margin-right: 5px;
+          }
+
+          .heading {
+            font-weight: 700;
+            color: lightgray;
+            font-size: 14px;
+          }
+          .phone {
+            font-size: 15px;
+            position: relative;
+            bottom: 5px;
+            margin-top: 22px;
+          }
+          .location {
+            font-size: 15px;
+            margin-top: 22px;
+
+            position: relative;
+            bottom: 15px;
+          }
+        }
+      }
+
+      .userupdate {
+        display: flex;
+
+        height: 430px;
+        width: 70%;
+
+        margin: 10px;
+        -webkit-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+        -moz-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+        box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+
+        .info {
+          width: 50%;
+          height: 400px;
+          padding-bottom: 10px;
+
+          .heading {
+            width: auto;
+            height: 30px;
+
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            h1 {
+              font-size: 25px;
+            }
+          }
+
+          .updateinfo {
+            height: 86%;
+            width: auto;
+
+            .infoinput {
+              padding: 5px 15px;
+              display: flex;
+              justify-content: space-between;
+              flex-direction: column;
+              width: auto;
+              height: 60px;
+
+              .label {
+                font-size: 14px;
+              }
+
+              .input {
+                border: none;
+                border-bottom: 1px solid black;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+
+                &:focus {
+                  outline: none;
+                }
+              }
+            }
+          }
+        }
+        .profile {
+          position: relative;
+          width: 50%;
+          height: 413px;
+          // background-color: red;
+
+          .image {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 20px;
+            width: auto;
+            height: 90%;
+
+            img {
+              width: 190px;
+              height: 280px;
+              border-radius: 20px;
+              margin-right: 20px;
+            }
+
+            .icon2 {
+              cursor: pointer;
+            }
+          }
+          .update {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+
+            .updatebutton {
+              padding: 5px 60px;
+              border-radius: 10px;
+              background-color: blue;
+              color: white;
+              border: none;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+.createuserpage {
+  width: 79%;
+  height: 1000px;
+
+  position: relative;
+  top: 70px;
+  left: 20%;
+  padding-left: 10px;
+  padding-top: 20px;
+
+  .wrapper {
+    width: auto;
+    height: 460px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 5px;
+
+    -webkit-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+    -moz-box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+    box-shadow: -1px 3px 17px 0px rgba(217, 182, 217, 1);
+
+    .heading {
+      margin-bottom: 5px;
+    }
+
+    .form {
+      height: 75%;
+      padding: 5px;
+      display: flex;
+
+      .left {
+        //   border: 2px solid red;
+
+        width: 50%;
+        height: 97%;
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+
+        label {
+          color: gray;
+          font-weight: 600;
+          font-size: 13px;
+          margin-bottom: 10px;
+        }
+        input {
+          margin-bottom: 10px;
+          padding: 8px 5px;
+          width: 90%;
+          background-color: white;
+          border-radius: 5px;
+          border: 1px solid black;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+      .right {
+        height: 100%;
+        width: 50%;
+        //   border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          border-radius: 10px;
+          //      border: 2px solid blue;
+          width: 50%;
+          height: 90%;
+        }
+      }
+    }
+
+    .createbutton {
+      padding-left: 5px;
+      margin-bottom: 10px;
+      height: 50px;
+
+      button {
+        padding: 5px 80px;
+        background-color: blue;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
